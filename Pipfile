@@ -17,6 +17,7 @@ six = "*"
 requests = "*"
 tornado = "*"
 PyYAML = "*"
+matplotlib = "*"
 
 [requires]
 python_version = "3.6"
