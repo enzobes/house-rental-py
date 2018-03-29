@@ -11,6 +11,12 @@ pandas = "*"
 pyspark = "*"
 bokeh = "*"
 feedparser = "*"
+numpy = "*"
+"Jinja2" = "*"
+six = "*"
+requests = "*"
+tornado = "*"
+PyYAML = "*"
 
 [requires]
 python_version = "3.6"
