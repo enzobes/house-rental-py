@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8afa85fd9cc122d1118d7473809d2efc3a43af91c0212320d0d818b7e0a49832"
+            "sha256": "c7a2ba75661eb99bdeb50fc98987b5aface2c7c5bfd9a208fc340e333fa37691"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,14 @@
         ]
     },
     "default": {
+        "appnope": {
+            "hashes": [
+                "sha256:5b26757dc6f79a3b7dc9fab95359328d5747fcb2409d331ea66d0272b90ab2a0",
+                "sha256:8b995ffe925347a2138d7ac0fe77155e4311a0ea6d6da4f5128fe4b3cbe5ed71"
+            ],
+            "markers": "sys_platform == 'darwin'",
+            "version": "==0.1.0"
+        },
         "bleach": {
             "hashes": [
                 "sha256:b8fa79e91f96c2c2cd9fd1f9eda906efb1b88b483048978ba62fef680e962b34",
@@ -43,6 +51,19 @@
                 "sha256:fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"
             ],
             "version": "==3.0.4"
+        },
+        "colorlover": {
+            "hashes": [
+                "sha256:f12a091ca2bca29e0e9294a072693bc70d2fafc573bb7c0fc8070099b5de9cb2"
+            ],
+            "version": "==0.2.1"
+        },
+        "cufflinks": {
+            "hashes": [
+                "sha256:8f11e4b6326cc5b2a18011c09fb64f178ba21002f337fd305f64818012a6c679"
+            ],
+            "index": "pypi",
+            "version": "==0.12.1"
         },
         "cycler": {
             "hashes": [
@@ -101,7 +122,6 @@
                 "sha256:51c158a6c8b899898d1c91c6b51a34110196815cc905f9be0fa5878e19355608",
                 "sha256:fcc6d46f08c3c4de7b15ae1c426e15be1b7932bcda9d83ce1a4304e8c1129df3"
             ],
-            "markers": "python_version >= '3.3'",
             "version": "==6.2.1"
         },
         "ipython-genutils": {
@@ -341,6 +361,12 @@
             ],
             "version": "==0.7.4"
         },
+        "plotly": {
+            "hashes": [
+                "sha256:9dd816c36271cf81d82c854fba866c743cbd8cc71f1c95384195307def859a69"
+            ],
+            "version": "==2.5.1"
+        },
         "prompt-toolkit": {
             "hashes": [
                 "sha256:1df952620eccb399c53ebb359cc7d9a8d3a9538cb34c5a1344bdbeb29fbcc381",
@@ -354,6 +380,7 @@
                 "sha256:e64193f0047ad603b71f202332ab5527c5e52aa7c8b609704fc28c0dc20c4365",
                 "sha256:e8c43b5eee76b2083a9badde89fd1bbce6c8942d1045146e100b7b5e014f4f1a"
             ],
+            "markers": "os_name != 'nt'",
             "version": "==0.5.2"
         },
         "py4j": {

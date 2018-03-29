@@ -21,6 +21,7 @@ PyYAML = "*"
 matplotlib = "*"
 seaborn = "*"
 scipy = "*"
+cufflinks = "*"
 
 [requires]
 python_version = "3.6"
