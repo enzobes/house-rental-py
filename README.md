@@ -9,10 +9,10 @@ __DATASET__: [Enedys](https://data.enedis.fr/explore/dataset/consommation-electr
 __Prérequis__:
 
 * Python3.6
-* `pipenv``
+* `pipenv`
 
 ```bash
-pipenv install
+pipenv install --dev
 ```
 
 ## Lancement du notebook
