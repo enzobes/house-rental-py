@@ -18,6 +18,8 @@ requests = "*"
 tornado = "*"
 PyYAML = "*"
 matplotlib = "*"
+seaborn = "*"
+scipy = "*"
 
 [requires]
 python_version = "3.6"
