@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c7a2ba75661eb99bdeb50fc98987b5aface2c7c5bfd9a208fc340e333fa37691"
+            "sha256": "5549589046ce804073790db2c8ca671eb8221a879debcf29022d54071c1bf211"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,14 +16,6 @@
         ]
     },
     "default": {
-        "appnope": {
-            "hashes": [
-                "sha256:5b26757dc6f79a3b7dc9fab95359328d5747fcb2409d331ea66d0272b90ab2a0",
-                "sha256:8b995ffe925347a2138d7ac0fe77155e4311a0ea6d6da4f5128fe4b3cbe5ed71"
-            ],
-            "markers": "sys_platform == 'darwin'",
-            "version": "==0.1.0"
-        },
         "bleach": {
             "hashes": [
                 "sha256:b8fa79e91f96c2c2cd9fd1f9eda906efb1b88b483048978ba62fef680e962b34",
@@ -772,6 +764,13 @@
             ],
             "index": "pypi",
             "version": "==2.18.4"
+        },
+        "seaborn": {
+            "hashes": [
+                "sha256:6702978b903d0284446e935916b980dfebae4063c18ad8eb6e8f9e76d0257eae"
+            ],
+            "index": "pypi",
+            "version": "==0.8.1"
         },
         "six": {
             "hashes": [
